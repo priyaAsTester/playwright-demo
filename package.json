@@ -1,0 +1,21 @@
+{
+  "name": "hrmsrecruitment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate-data": "node utils/generate-xlsx.js",
+    "test:ui": "node utils/generate-xlsx.js && npx playwright test --reporter=html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "@types/node": "^25.1.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "xlsx": "^0.18.5"
+  }
+}
